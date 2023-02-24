@@ -16,7 +16,13 @@ export async function getStaticProps(context) {
 }
 
 export default function Post({ post }) {
-    return <div>Omg this is so fun</div>;
+    return (
+        <div>
+            <h1>This is a test page</h1>
+            <p>I hope this works</p>
+        </div>
+    
+    );
 }
   
   
